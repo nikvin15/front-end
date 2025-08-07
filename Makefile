@@ -7,6 +7,7 @@ up: compose test-image deps server
 
 down: kill-server kill-compose
 
+
 dev: clean test-image server
 
 # Brings the backend services up using Docker Compose
